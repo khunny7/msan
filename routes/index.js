@@ -4,7 +4,7 @@ const axios = require('axios');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'MSAN' });
+  res.render('index', { title: 'MSAN2' });
 });
 
 router.get('/auth', async function(req, res, next) {
